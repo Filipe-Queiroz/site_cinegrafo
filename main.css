@@ -1,0 +1,135 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+header,
+section h2,
+section h3,
+form button {
+    font-family: "Libre Baskerville", serif;
+    font-weight: normal;
+}
+
+body, textarea {
+    font-family: "Libre Baskerville", serif;
+}
+
+header {
+    background-color: #561C24;
+    padding: 25px;
+    color: #E8D8C4;
+}
+
+header h1 {
+    color: #E8D8C4;
+    font-size: 60px;
+}
+
+header nav li {
+    display: inline;
+    margin-left: 16px;
+    font-size: 20px;
+}
+
+header nav li a {
+    color: #E8D8C4;
+    text-decoration: none;
+}
+
+header nav li a:hover {
+    color: #d2b088;
+}
+
+.container {
+    max-width: 1280px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+header .container, 
+section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+body {
+    background-color: #E8D8C4;
+}
+
+section {
+    color: #561C24;
+    padding-top: 50px;
+}
+
+section h2 {
+    font-size: 38px;
+    padding-bottom: 10;
+    text-align: center;
+}
+
+section h3 {
+    font-size: 28px;
+    padding: 100px 0px 30px 290px;
+}
+
+section p {
+    font-size: 20px;
+    padding: 10px 290px 25px 290px;
+    padding-top: 10px;
+    padding-bottom: 25px;
+}
+
+.imagem {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 400px;
+    width: 700px;
+}
+
+form textarea {
+    resize: none;
+    height: 200px;
+    background-color: #f2eadf;
+}
+
+input:focus, textarea:focus {
+    outline-color: #561C24;
+}
+
+footer {
+    background-color: #C7B7A3;
+    padding: 16px 0;
+    color: #3C3633;
+    text-align: center;
+}
+
+header a {
+    text-decoration: none;
+}
+
+section label {
+    font-size: 24px;
+}
+
+form textarea,
+button {
+    display: block;
+    width: 325px;
+    margin: 8px 0 8px 0;
+    padding: 8px;
+}
+
+form button {
+    background-color: #561C24;
+    color: #C7B7A3;
+    border: none;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #7b242f;
+}
